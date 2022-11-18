@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    padding: 0% 5% 0% 1%;
+    color: #309FD9;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+}
+nav ul{
+    float: right;
+    display: flex;
+}
+nav li{
+    margin-right: 4em;
+}
+#logo00{
+    width: 2%;
+}
+
+
+
+.galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    
+}
+.btn-galeria{
+    width: 25%;
+}
+
+img{
+    width: 100%;
+}
+.img-games{
+    width: 10%;
+    text-align: center;
+    margin: 2%;
+}
+
+.intervalo h1{
+    background-color: #309FD9;
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+}
+
+#wwworld{
+    font-family: 'Raleway', sans-serif;
+    background-color: #FFE627;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1%;
+}
+.wwworld-img{
+    margin: 0% 1% 0% 1%;
+    width: 2%;
+    height: 2%;
+}
+
+#noticias{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3% 1% 0% 1%;
+}
+.card-noticia{
+    border: 1.5px solid black;
+    width: 30%;
+    margin: 1% 1% 5% 1%;
+}
+.card-noticia h3{
+    padding: 5% 5% 3% 5%;
+    font-size: 130%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+}
+.card-noticia p{
+    text-align: justify;
+    padding: 0% 5% 5% 5%;
+    font-size: 90%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer{
+    text-align: center;
+    background-color: #FFE627;
+    padding-bottom: 2em;
+}
+.footer h1{
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 1%;
+}
+.patrocinadores{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.patrocinadores a{
+    color: black;
+    margin: 4% 3% 4% 3%;
+    font-family: 'Raleway', sans-serif;
+}
+.redes{
+    margin-right: 5%;
+    text-align: right;
+    font-family: 'Ubuntu', sans-serif;
+}
+.redes-icone{
+    width: 2%;
+    margin: 0% 0% 0% 5%;
+}
